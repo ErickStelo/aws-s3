@@ -1,0 +1,7 @@
+1 - Na conta da AWS, acessar as Credenciais de Segurança
+2 - Criar uma chave de acesso (é usada para qualquer servico da AWS)
+
+Na linha 6 do index, configurar a localizacao do servidor e informar a chave de acesso e chave de acesso secreta
+    AWS.config.update({region: 'sa-east-1', credentials: {accessKeyId: 'AKIAVO6RIPJ3MVZ74QJC', secretAccessKey: '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'}});
+
+
